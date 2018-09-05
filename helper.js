@@ -17,7 +17,7 @@ module.exports = api => {
             }
 
             if (configPath) {
-                const moduleExports = configPath !== pkgPath ? 'module.exports = ' : ''
+                const moduleExports = configPath !== pkgPath ? 'module.exports = ' : '';
                 fs.writeFileSync(
                     configPath,
                     `${moduleExports}${JSON.stringify(config, null, 2)}`,
@@ -26,4 +26,4 @@ module.exports = api => {
             }
         }
     }
-}
+};

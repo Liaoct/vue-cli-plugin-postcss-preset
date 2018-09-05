@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-postcss-preset",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vue cli 3.x plugin for postcss preset.",
   "keywords": [
     "postcss",
@@ -13,6 +13,9 @@
     "cli"
   ],
   "main": "index.js",
+  "dependencies": {
+    "postcss-preset-env": "^5.3.0"
+  },
   "repository": "https://github.com/SpringLIAO/vue-cli-plugin-postcss-preset.git",
   "author": "SpringLIAO <www.389055604@qq.com>",
   "license": "MIT",
